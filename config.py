@@ -29,7 +29,7 @@ PORT = os.environ.get("PORT", "8000")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://abidabdullah199:abidabdullah12041@cluster0.1wqba.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "HeavenlySubsBot")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
