@@ -25,14 +25,14 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002082927531"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "5296584067"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8000")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://abidabdullah199:abidabdullah12041@cluster0.1wqba.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "HeavenlySubsBot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002021612199"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
