@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7102263394:AAE__-_LziMK4vJJzjHxo4o4IQtHV8umXtM")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6569543312:AAHJ0HLBgkn-iMG2fJprJQlY2ivwn9mu0Tw")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26254064"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26254064"))
 API_HASH = os.environ.get("API_HASH", "72541d6610ae7730e6135af9423b319c")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002089885525"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002010070803"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5296584067"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://HeavenlySubsShareBot:vi1q
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002107175667"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002125561929)
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Claim your File After Joined my Channal")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Claim your File After Joining my Channal")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
